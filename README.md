@@ -7,4 +7,4 @@
 
 ## Projeto
 
-Projeto Integrador desenvolvido pela equipe Githubers.
+Projeto desenvolvido pela equipe Githubers.
