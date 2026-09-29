@@ -2,6 +2,9 @@
 
 ## Equipe
 
-- Nome do aluno A: Alisson
-- Nome do aluno B: Eric
-- Nome do aluno C: Marco
+- Alisson Aluno A — Prontuário: 1002
+- Eric    Aluno B — Prontuário: 783
+
+## Projeto
+
+Projeto Integrador desenvolvido pela equipe Githubers.
