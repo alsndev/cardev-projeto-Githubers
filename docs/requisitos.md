@@ -1,26 +1,50 @@
-Diagnóstico do Problema — Matriz CSD
+\## Requisitos Funcionais
 
-Certezas
 
-A associação comercializa produtos de artesãos e pequenos produtores locais em feiras físicas.
 
-O controle atual de estoque e vendas é realizado em cadernos de papel.
+\*\*RF01 — Cadastro de produtos\*\*
 
-A associação perde oportunidades de venda porque não possui uma vitrine digital nem permite reservas antecipadas.
+O sistema deve permitir que o artesão cadastre seus produtos informando nome, descrição, preço, foto e quantidade disponível em estoque.
 
-Suposições
 
-Uma vitrine digital poderá aumentar a divulgação dos produtos durante períodos de baixa temporada.
 
-A possibilidade de realizar reservas antecipadas poderá reduzir a perda de vendas durante a alta temporada.
+\*\*RF02 — Consulta do catálogo\*\*
 
-Um controle digital de estoque poderá reduzir divergências entre a quantidade registrada e a quantidade realmente disponível.
+O sistema deve permitir que o turista consulte os produtos disponíveis no catálogo digital, visualizando nome, foto, preço e disponibilidade.
 
-Dúvidas
 
-Quantos artesãos e produtores utilizarão o sistema?
 
-Os clientes precisarão realizar cadastro para fazer reservas?
+\*\*RF03 — Reserva de produtos\*\*
 
-Como serão realizados os pagamentos e os repasses aos artesãos?
+O sistema deve permitir que o turista reserve um produto disponível, informando seus dados de contato e a quantidade desejada.
+
+
+
+\*\*RF04 — Controle de estoque\*\*
+
+O sistema deve permitir que o artesão consulte e atualize a quantidade de produtos disponíveis em estoque após vendas ou reservas.
+
+
+
+\## Requisitos Não Funcionais
+
+
+
+\*\*RNF01 — Desempenho\*\*
+
+O sistema deve carregar as páginas principais e o catálogo de produtos em até 3 segundos em uma conexão de internet adequada.
+
+
+
+\*\*RNF02 — Segurança\*\*
+
+O sistema deve proteger os dados pessoais dos usuários e permitir acesso às funções administrativas somente para usuários autorizados.
+
+
+
+\*\*RNF03 — Usabilidade\*\*
+
+A interface deve ser responsiva e adaptável a smartphones, tablets e computadores, permitindo que os usuários naveguem pelo catálogo de forma simples e intuitiva.
+
+
 
